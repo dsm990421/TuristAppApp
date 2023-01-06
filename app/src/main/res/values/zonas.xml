@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zonas">
+        <item>Elije una opción</item>
+        <item>Tlalmanalco</item>
+        <item>San Rafael</item>
+        <item>San Lorenzo</item>
+        <item>San Juan</item>
+        <item>Santo Tomas</item>
+        <item>Santa Maria</item>
+        <item>San Antonio</item>
+    </string-array>
+</resources>

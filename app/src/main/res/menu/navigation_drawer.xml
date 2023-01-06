@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/one"
+            android:icon="@drawable/bot"
+            android:title="Chatbot"/>
+        <item android:id="@+id/two"
+            android:icon="@drawable/registrarnegocio"
+            android:title="Registrar Negocio"/>
+        <item android:id="@+id/btnCerrarSesion"
+            android:icon="@drawable/salirsesion"
+            android:title="Cerrar Sesion"/>
+    </group>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ImUser"
+        android:icon="@drawable/logoturistapp"
+        android:title="User"
+        android:contentDescription="Favoritos2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/btnlogout"
+        android:title="Cerrar Sesión"
+        android:contentDescription="Boton para cerrar sesion"
+        app:showAsAction="never" />
+
+
+</menu>

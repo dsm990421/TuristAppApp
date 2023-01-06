@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/AuthLayout"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        app:srcCompat="@drawable/logoturistapp" />
+    <ImageView
+        android:layout_marginTop="10sp"
+        android:layout_width="190sp"
+        android:layout_height="25sp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/textapp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="30sp"
+        android:text="Bienvenido"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="25sp"
+        android:text="Inicia sesión con una cuenta existente"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/sobre_18"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="16sp"
+        app:boxBackgroundMode="outline"
+        android:hint="Ingresa tu Email"
+        app:endIconMode="clear_text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/cerrar_18"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="16sp"
+        app:boxBackgroundMode="outline"
+        android:hint="Ingresa tu Contraseña"
+        app:endIconMode="password_toggle">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Iniciar Sesion"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="O conecta usando"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnGoogle"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15sp"
+            android:text="Google"
+            app:icon="@drawable/googlelogo" />
+        <Button
+            style="@style/Widget.Material3.Button.Icon"
+            android:id="@+id/btnFacebook"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            app:icon="@drawable/facelogo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes una cuenta?"
+            />
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrate"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿O quieres iniciar sesion en tu negocio?"
+            />
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btnLoginN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicia Sesion"
+            />
+    </LinearLayout>
+</LinearLayout>

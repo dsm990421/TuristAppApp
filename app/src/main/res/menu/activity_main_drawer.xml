@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/uno"
+            android:icon="@android:drawable/btn_star"
+            android:title="Item 1"/>
+        <item android:id="@+id/dos"
+            android:icon="@android:drawable/btn_star"
+            android:title="Item 2"/>
+        <item android:id="@+id/tres"
+            android:icon="@android:drawable/btn_star"
+            android:title="Cerrar Sesion"/>
+    </group>
+</menu>

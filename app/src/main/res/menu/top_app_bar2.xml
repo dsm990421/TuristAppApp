@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Premium"
+        android:icon="@drawable/logoturistapp"
+        android:title="User"
+        android:contentDescription="Favoritos2"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/btnaddS"
+        android:title="Agregar Servicio"
+        android:contentDescription="Boton para cerrar sesion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnEditarp"
+        android:title="Editar Negocio"
+        android:contentDescription="Boton para cerrar sesion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnEliminarN"
+        android:title="Eliminar Negocio"
+        android:contentDescription="Boton para cerrar sesion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnlogout2"
+        android:title="Cerrar Sesión"
+        android:contentDescription="Boton para cerrar sesion"
+        app:showAsAction="never" />
+
+</menu>
